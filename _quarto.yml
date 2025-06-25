@@ -1,0 +1,24 @@
+project:
+  type: website
+  title: "Codeswitch"
+  # execute-dir: project
+  output-dir: /Users/chaohan/Documents/GitHub/chaohanch.github.io/docs/codeswitch
+  render:
+      - codeswitch_preprocessing_itemlevel.ipynb
+
+website:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Preprocessing pipeline"
+        href: codeswitch_preprocessing_itemlevel.ipynb
+
+format:
+  html: 
+    respect-user-color-scheme: true
+    theme: cosmo
+      #light: cosmo
+      #dark: solar
+
+#fontsize: 11.5pt
